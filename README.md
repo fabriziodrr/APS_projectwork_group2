@@ -3,6 +3,8 @@
 Project work universitario per il corso di **Algoritmi e Protocolli per la Sicurezza**
 presso l'**Universita degli Studi di Salerno**, corso **ML-32**.
 
+Studenti: **Contaldo Luigi** e **D'Errico Fabrizio**.
+
 Questo repository contiene la soluzione progettuale e il prototipo di un protocollo di voto elettronico
 basato su crittografia asimmetrica, commitment, schema di Shamir e smart contract Ethereum.
 
@@ -48,6 +50,8 @@ AES-256-GCM per la trasmissione protetta delle share e lo schema di Shamir per l
 
 This repository hosts the university project and prototype for the course **Algorithms and Protocols for Security**
 at the **University of Salerno**, degree program **ML-32**.
+
+Students: **Contaldo Luigi** and **D'Errico Fabrizio**.
 
 The project implements a blockchain-based electronic voting protocol using public-key cryptography,
 commitments, Shamir secret sharing, and an Ethereum smart contract.
