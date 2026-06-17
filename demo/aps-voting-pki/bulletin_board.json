@@ -1,0 +1,16 @@
+{
+  "result": 0,
+  "total_votes": 1,
+  "merkle_root_bb": "2dff414ba0431d96e4590bb9574fa68f333610b2942836adeabf20b4a2ad9e17",
+  "entries": [
+    {
+      "seqNum": 0,
+      "v": 0,
+      "commit_voto": "a419dd4b900881af30ad2d1dfec78e17576e72b6ab269dfd91e5ada543568626",
+      "ballot_hash": "65287f4afc2891a3d04916b3535e7d42cf2be23e7804c986b76401550fabee94"
+    }
+  ],
+  "sig_as_b64": "FwHh+28z1Oi1qkD/LmHoxPupU8ECchJMJo/UzQBBBkEImoRolPhac0QBszAIwknuZUSHPn7EZD/Rnmb/x5+Sk5hxOkmZryOBX5Yy6PE1a+i1wKh9iKBx01ixbfB7FmPC9FQAvfaSFbq66+poVzrSdY/iAbYHsC9ex2ul5kioo8m2wwJhXLNduIplgiIIgqQ5CwMXtBU3OcmTFMGOCuOj1v5YvmLlf7F169I0WlRIOty7xC5oEnH7G+oZcrGxSjn8iSTUZoc/RQw8tgL2mhWCZJJr+A2oYk7u9BL5rNgM4XI/MhDktCQT0UR5LpW/So87rNqerrrPXage/KQJUw1b5w==",
+  "att_risultato": "{\"payload\": {\"action\": \"RISULTATO\", \"result\": 0, \"total_votes\": 1, \"ts\": 1781714787.7554095, \"merkle_root_bb\": \"2dff414ba0431d96e4590bb9574fa68f333610b2942836adeabf20b4a2ad9e17\"}, \"sig\": \"SSNotk0bHjNzBWBtAeJ1g/sONPkcSM8EGlVryk5beEf6bnJ6/bf4SDhI0IhcwhFbDD2IExtNLX79Sy+7noGor0pA6Lch7KA/HEdIzeTULu9KFmoXANiXgVAZsk1EVopoqmQVZ/+vcj+grgSk9vCmmUUPmXmAP/fNSDgb/EHU8mGQImHyaMpuRXeEs1X1En75q0kjFEmW5Ow65/58SmQGqQomZvxPijIfQlbLa+mVTmiC4pYZbuuGL6O1GO8TaKtwu9JTei8KNiBfnyZgVgzqwaUqxM/QdqVVrsT+LxGdsl/RiZmWJgKWG5RZNhBpNUu5eV7NIdBV8oMFM7b0vTwrIw==\"}",
+  "merkle_root_urna": "91437fa67416ffd14fd86b4098cd69578ad5f48ffdec63ab2b26610173860b7d"
+}

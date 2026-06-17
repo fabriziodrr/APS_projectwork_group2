@@ -1,0 +1,22 @@
+{
+  "MarioRossi001": {
+    "nome": "Mario Rossi",
+    "codice_fiscale": "RSSMRA80A01H501U"
+  },
+  "LuigiVerdi002": {
+    "nome": "Luigi Verdi",
+    "codice_fiscale": "VRDLGU75B02F205X"
+  },
+  "AnnaBianchi003": {
+    "nome": "Anna Bianchi",
+    "codice_fiscale": "BNCNNA90C03G702K"
+  },
+  "CarloNeri004": {
+    "nome": "Carlo Neri",
+    "codice_fiscale": "NRECRL85D04L219P"
+  },
+  "GiuliaMarini005": {
+    "nome": "Giulia Marini",
+    "codice_fiscale": "MRNGLU92E05M082Q"
+  }
+}

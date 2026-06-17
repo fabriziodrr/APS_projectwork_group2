@@ -1,0 +1,184 @@
+{
+  "system": "APS Voting System",
+  "rsa_bits": 2048,
+  "fast_mode": false,
+  "timestamp": "2026-06-16T12:10:07.625412Z",
+  "results": [
+    {
+      "label": "SHA-256 (64 byte)",
+      "n": 50,
+      "mean": 0.001,
+      "min": 0.001,
+      "max": 0.015,
+      "stdev": 0.002
+    },
+    {
+      "label": "SHA-256 (100 KB)",
+      "n": 50,
+      "mean": 0.105,
+      "min": 0.087,
+      "max": 0.155,
+      "stdev": 0.022
+    },
+    {
+      "label": "Commitment voto  SHA-256(v||r)",
+      "n": 50,
+      "mean": 0.002,
+      "min": 0.001,
+      "max": 0.012,
+      "stdev": 0.002
+    },
+    {
+      "label": "Firma  RSA-2048  (sk_AR / sk_e)",
+      "n": 20,
+      "mean": 0.878,
+      "min": 0.6,
+      "max": 1.526,
+      "stdev": 0.262
+    },
+    {
+      "label": "Verifica firma  RSA-2048",
+      "n": 20,
+      "mean": 0.036,
+      "min": 0.031,
+      "max": 0.108,
+      "stdev": 0.017
+    },
+    {
+      "label": "Cifratura voto  RSA-OAEP (pk_AS)",
+      "n": 20,
+      "mean": 0.043,
+      "min": 0.038,
+      "max": 0.098,
+      "stdev": 0.013
+    },
+    {
+      "label": "Decifratura voto RSA-OAEP (sk_AS)",
+      "n": 20,
+      "mean": 0.848,
+      "min": 0.606,
+      "max": 1.435,
+      "stdev": 0.238
+    },
+    {
+      "label": "AES-256-GCM  cifratura (64 B)",
+      "n": 50,
+      "mean": 0.003,
+      "min": 0.003,
+      "max": 0.03,
+      "stdev": 0.004
+    },
+    {
+      "label": "AES-256-GCM  decifratura (64 B)",
+      "n": 50,
+      "mean": 0.003,
+      "min": 0.003,
+      "max": 0.029,
+      "stdev": 0.004
+    },
+    {
+      "label": "Cifratura pacchetto share garante",
+      "n": 20,
+      "mean": 0.062,
+      "min": 0.038,
+      "max": 0.238,
+      "stdev": 0.047
+    },
+    {
+      "label": "Decifratura pacchetto share",
+      "n": 20,
+      "mean": 0.809,
+      "min": 0.609,
+      "max": 1.512,
+      "stdev": 0.236
+    },
+    {
+      "label": "Costruzione token AR",
+      "n": 20,
+      "mean": 0.886,
+      "min": 0.626,
+      "max": 2.186,
+      "stdev": 0.342
+    },
+    {
+      "label": "Verifica token AR",
+      "n": 20,
+      "mean": 0.035,
+      "min": 0.032,
+      "max": 0.08,
+      "stdev": 0.011
+    },
+    {
+      "label": "Costruzione scheda + firma sk_e",
+      "n": 20,
+      "mean": 0.803,
+      "min": 0.625,
+      "max": 1.047,
+      "stdev": 0.117
+    },
+    {
+      "label": "Verifica firma scheda",
+      "n": 20,
+      "mean": 0.046,
+      "min": 0.036,
+      "max": 0.139,
+      "stdev": 0.025
+    },
+    {
+      "label": "Costruzione ricevuta AR",
+      "n": 20,
+      "mean": 0.696,
+      "min": 0.609,
+      "max": 1.117,
+      "stdev": 0.128
+    },
+    {
+      "label": "Emissione certificato X.509",
+      "n": 20,
+      "mean": 0.924,
+      "min": 0.633,
+      "max": 4.965,
+      "stdev": 0.954
+    },
+    {
+      "label": "Shamir split  (128 bit, GF(p))",
+      "n": 50,
+      "mean": 0.002,
+      "min": 0.001,
+      "max": 0.015,
+      "stdev": 0.002
+    },
+    {
+      "label": "Lagrange ricostruzione  (t=2)",
+      "n": 50,
+      "mean": 0.017,
+      "min": 0.014,
+      "max": 0.063,
+      "stdev": 0.008
+    },
+    {
+      "label": "Miller-Rabin  (256 bit, k=20)",
+      "n": 20,
+      "mean": 0.031,
+      "min": 0.001,
+      "max": 0.17,
+      "stdev": 0.059
+    },
+    {
+      "label": "Ricerca primo p > S  (256 bit)",
+      "n": 5,
+      "mean": 5.39,
+      "min": 3.611,
+      "max": 8.816,
+      "stdev": 2.057
+    },
+    {
+      "label": "Generazione coppia RSA-2048",
+      "n": 5,
+      "mean": 47.516,
+      "min": 30.52,
+      "max": 64.0,
+      "stdev": 15.121
+    }
+  ]
+}
